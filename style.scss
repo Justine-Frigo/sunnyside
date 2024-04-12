@@ -37,6 +37,10 @@ header {
   }
 
   .top-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     a {
       color: $white;
       text-decoration: none;
@@ -187,7 +191,7 @@ footer {
   }
 
   .menu-list {
-    width: 100%;
+    width: 80%;
     display: inline-block;
     color: $darkDesaturatedCyan;
     margin: 0 auto;
@@ -228,6 +232,14 @@ footer {
 
 .svg-white:hover {
   filter: brightness(100);
+}
+
+.nav-menu-burger {
+  margin-right: 25px;
+}
+
+.burger {
+  width: 120%;
 }
 
 @import "media-queries";

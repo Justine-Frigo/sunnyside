@@ -36,6 +36,12 @@ header h1 {
 header .nav-menu {
   display: none;
 }
+header .top-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
 header .top-nav a {
   color: hsl(0, 0%, 100%);
   text-decoration: none;
@@ -263,7 +269,7 @@ footer a {
   text-decoration: none;
 }
 footer .menu-list {
-  width: 100%;
+  width: 80%;
   display: inline-block;
   color: hsl(167, 40%, 24%);
   margin: 0 auto;
@@ -301,16 +307,27 @@ footer .social-list ul li a img {
   filter: brightness(100);
 }
 
+.nav-menu-burger {
+  margin-right: 25px;
+}
+
+.burger {
+  width: 120%;
+}
+
 @media screen and (min-width: 768px) {
   header h1 {
     margin-bottom: 14vh;
+  }
+  header .nav-menu-burger {
+    display: none;
   }
   header .nav-menu {
     display: flex;
   }
   header .nav-menu ul {
     display: flex;
-    position: absolute;
+    flex-direction: row;
     list-style-type: none;
     top: 0;
     right: 0;
@@ -332,8 +349,6 @@ footer .social-list ul li a img {
   header .icon {
     visibility: hidden;
   }
-}
-@media screen and (min-width: 768px) {
   .section-box {
     display: flex;
     flex-direction: column;
@@ -405,8 +420,6 @@ footer .social-list ul li a img {
     padding: 0 10%;
     margin-top: 10vh;
   }
-}
-@media screen and (min-width: 768px) {
   .section-testimonial h2 {
     font-size: 2rem;
   }
@@ -431,8 +444,6 @@ footer .social-list ul li a img {
   .section-testimonial .container .testimonial-box .thomas {
     width: 22%;
   }
-}
-@media screen and (min-width: 768px) {
   footer {
     display: flex;
     flex-direction: column;
@@ -446,7 +457,7 @@ footer .social-list ul li a img {
     height: 2vw;
   }
   footer .menu-list {
-    width: 50%;
+    width: 25%;
   }
   footer .menu-list ul {
     font-family: "Barlow";
@@ -466,17 +477,21 @@ footer .social-list ul li a img {
     color: white;
   }
   footer .social-list {
-    width: 30vw;
+    width: 30%;
   }
   footer .social-list ul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
   }
   footer .social-list ul li {
     text-align: center;
   }
   .svg-white:hover {
     fill: white;
+  }
+  .nav-menu-burger {
+    display: block;
   }
 }/*# sourceMappingURL=style.css.map */

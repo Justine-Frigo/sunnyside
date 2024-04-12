@@ -3,12 +3,15 @@
   header h1 {
     margin-bottom: 14vh;
   }
+  header .nav-menu-burger {
+    display: none;
+  }
   header .nav-menu {
     display: flex;
   }
   header .nav-menu ul {
     display: flex;
-    position: absolute;
+    flex-direction: row;
     list-style-type: none;
     top: 0;
     right: 0;
@@ -30,8 +33,6 @@
   header .icon {
     visibility: hidden;
   }
-}
-@media screen and (min-width: 768px) {
   .section-box {
     display: flex;
     flex-direction: column;
@@ -103,8 +104,6 @@
     padding: 0 10%;
     margin-top: 10vh;
   }
-}
-@media screen and (min-width: 768px) {
   .section-testimonial h2 {
     font-size: 2rem;
   }
@@ -129,8 +128,6 @@
   .section-testimonial .container .testimonial-box .thomas {
     width: 22%;
   }
-}
-@media screen and (min-width: 768px) {
   footer {
     display: flex;
     flex-direction: column;
@@ -144,7 +141,7 @@
     height: 2vw;
   }
   footer .menu-list {
-    width: 50%;
+    width: 25%;
   }
   footer .menu-list ul {
     font-family: "Barlow";
@@ -164,17 +161,21 @@
     color: white;
   }
   footer .social-list {
-    width: 30vw;
+    width: 30%;
   }
   footer .social-list ul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
   }
   footer .social-list ul li {
     text-align: center;
   }
   .svg-white:hover {
     fill: white;
+  }
+  .nav-menu-burger {
+    display: block;
   }
 }/*# sourceMappingURL=media-queries.css.map */
