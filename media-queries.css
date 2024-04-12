@@ -3,11 +3,6 @@
   header h1 {
     margin-bottom: 14vh;
   }
-  header img {
-    align-self: center;
-    width: 1%;
-    height: 12vh;
-  }
   header .nav-menu {
     display: flex;
   }

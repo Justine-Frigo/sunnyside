@@ -19,7 +19,7 @@ header {
 }
 header img {
   align-self: center;
-  width: 12%;
+  width: 8vh;
   left: 0;
 }
 header h1 {
@@ -301,14 +301,9 @@ footer .social-list ul li a img {
   filter: brightness(100);
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) {
   header h1 {
     margin-bottom: 14vh;
-  }
-  header img {
-    align-self: center;
-    width: 1%;
-    height: 12vh;
   }
   header .nav-menu {
     display: flex;
@@ -338,7 +333,7 @@ footer .social-list ul li a img {
     visibility: hidden;
   }
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) {
   .section-box {
     display: flex;
     flex-direction: column;
@@ -411,7 +406,7 @@ footer .social-list ul li a img {
     margin-top: 10vh;
   }
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) {
   .section-testimonial h2 {
     font-size: 2rem;
   }
@@ -437,7 +432,7 @@ footer .social-list ul li a img {
     width: 22%;
   }
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) {
   footer {
     display: flex;
     flex-direction: column;
