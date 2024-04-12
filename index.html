@@ -10,12 +10,13 @@
       href="./icons/favicon-32x32.png"
     />
     <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
     <title>Sunnyside agency landing page</title>
   </head>
 
   <body>
     <header>
-      <nav class="top-nav">
+      <nav class="top-nav" id="nav">
         <a href="#" class="active"><img src="./logo/logo.svg" alt="logo"/></a>
         <!-- will disappear when in mobile -->
         <div class="nav-menu">
@@ -26,8 +27,16 @@
             <li><a href="#">Contact</a></li>
           </ul>
         </div>
-        <div class="nav-menu-burger">
+        <div class="nav-menu-burger" id="menu-burger">
           <img class="burger" src="./icons/icon-hamburger.svg" alt="hamburger">
+        </div>
+        <div id="menu-responsive" class="hidden">
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
         </div>
       </nav>
       <h1>We are creatives</h1>
