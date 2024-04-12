@@ -261,8 +261,8 @@ footer {
 }
 footer .logo img {
   height: 5vw;
-  margin: 0 auto;
-  margin: 5vh 0;
+  margin: auto;
+  margin: 2.5vh 0;
 }
 footer a {
   color: hsl(167, 40%, 24%);
@@ -278,29 +278,39 @@ footer .menu-list ul {
   font-family: "Barlow";
   font-size: 1.125rem;
   font-weight: 600;
+  margin-left: -40px;
   display: flex;
   flex-direction: row;
   list-style-type: none;
 }
 footer .menu-list ul li {
   width: 20rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 footer .social-list {
   width: 75%;
   display: inline-block;
+  margin-top: 15%;
 }
 footer .social-list ul {
   display: flex;
   flex-direction: row;
   list-style-type: none;
+  justify-content: center;
+  margin-left: -40px;
 }
 footer .social-list ul li {
-  width: 15rem;
+  width: 3rem;
   list-style-type: none;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 footer .social-list ul li a img {
   font-size: 2rem;
-  margin-top: 10vh;
 }
 
 .svg-white:hover {
@@ -466,10 +476,11 @@ footer .social-list ul li a img {
     list-style-type: none;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     padding: 0;
   }
   footer .menu-list ul li {
-    width: 100%;
+    width: 8rem;
     text-align: center;
     text-decoration: none;
   }
@@ -478,20 +489,20 @@ footer .social-list ul li a img {
   }
   footer .social-list {
     width: 30%;
+    margin-top: 4%;
   }
   footer .social-list ul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    margin-left: -40px;
   }
   footer .social-list ul li {
     text-align: center;
+    width: 3rem;
   }
   .svg-white:hover {
     fill: white;
-  }
-  .nav-menu-burger {
-    display: block;
   }
 }/*# sourceMappingURL=style.css.map */

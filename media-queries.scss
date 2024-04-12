@@ -179,9 +179,10 @@
         list-style-type: none;
         display: flex;
         flex-direction: row;
+        justify-content: center;
         padding: 0;
         li {
-          width: 100%;
+          width: 8rem;
           text-align: center;
           text-decoration: none;
           :hover {
@@ -192,14 +193,18 @@
     }
     .social-list {
       width: 30%;
+      margin-top: 4%;
 
       ul {
         list-style-type: none;
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: center;
+        margin-left: -40px;
+        
         li {
           text-align: center;
+          width: 3rem;
         }
       }
     }
@@ -207,9 +212,5 @@
 
   .svg-white:hover {
     fill: white;
-  }
-
-  .nav-menu-burger {
-    display: block;
   }
 }
